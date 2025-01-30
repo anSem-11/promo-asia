@@ -1,0 +1,196 @@
+.summer-promo-header {
+	background: #A0000F url("https://direct-landings.azureedge.net/assets/img/pages/summer/summer_hero.svg") no-repeat center center;
+	background-size: cover;
+	min-height: 720px;
+	overflow: hidden;
+	position: relative;
+}
+
+.summer-promo-header__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.summer-promo-header__text-wrapper {
+	padding: 90px 0 100px;
+	z-index: 1;
+}
+
+.summer-promo-header__title,
+.summer-promo-header__subtitle_primary,
+.summer-promo-header__subtitle_secondary,
+.summer-promo-header__dates,
+.summer-promo-header__button {
+	text-align: center;
+	margin: 0 auto 20px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.summer-promo-header__title {
+	color: #FFCE00;
+	font-family: "Inter", sans-serif;
+	font-size: 35px;
+	line-height: 110%;
+	letter-spacing: -1.08px;
+	max-width: 275px;
+	font-weight: 600;
+}
+
+.summer-promo-header__subtitle_primary {
+	font-family: "Inter", sans-serif;
+	font-size: 19px;
+	line-height: 130%;
+	letter-spacing: -0.2px;
+	max-width: 430px;
+}
+
+.summer-promo-header__subtitle_secondary {
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	max-width: 500px;
+}
+
+.summer-promo-header__dates {
+	font-family: "Inter", sans-serif;
+	font-size: 24px;
+	line-height: 120%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+}
+
+.summer-promo-header__dates span {
+	font-size: 12px;
+	letter-spacing: 0.36px;
+	font-weight: 600;
+	line-height: 120%;
+	background: linear-gradient(45deg, #F5B93E, #FF6161);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 10px;
+}
+
+.summer-promo-header__podium {
+	width: 450px;
+	z-index: 0;
+	position: absolute;
+	top: 190px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	margin-left: 19px;
+}
+
+.summer-promo-header__star {
+	position: absolute;
+	z-index: 0;
+}
+
+.summer-promo-header__star img {
+	width: 100%;
+}
+
+.summer-promo-header__star_small {
+	width: 85px;
+	left: 50%;
+	top: 50%;
+	transform: translate(108px, -160px);
+}
+
+.summer-promo-header__star_medium {
+	left: 50%;
+	width: 110px;
+	top: 50%;
+	transform: translate(-123px, 3px);
+}
+
+.summer-promo-header__star_large {
+	left: 50%;
+	top: 50%;
+	transform: translate(-205px, -290px);
+}
+
+.summer-promo-header__button {
+	border-radius: 10px;
+	background: #FFCE00;
+	cursor: pointer;
+	max-width: fit-content;
+}
+
+.summer-promo-header__button a {
+	color: #000;
+	font-size: 18px;
+	font-family: Inter;
+	padding: 15px 30px;
+	display: block;
+}
+
+@media (min-width: 768px) {
+	.summer-promo-header {
+		background: #A0000F url("https://direct-landings.azureedge.net/assets/img/pages/summer/summer_hero.svg") no-repeat center center;
+		min-height: 964px;
+		background-size: cover;
+	}
+
+	.summer-promo-header__text-wrapper {
+		padding: 200px 0 0;
+	}
+
+	.summer-promo-header__title,
+	.summer-promo-header__subtitle_primary,
+	.summer-promo-header__subtitle_secondary,
+	.summer-promo-header__dates {
+		max-width: 680px;
+		margin-bottom: 30px;
+	}
+
+	.summer-promo-header__title {
+		font-size: 52px;
+		margin-bottom: 20px;
+	}
+
+	.summer-promo-header__subtitle_primary {
+		font-size: 22px;
+		max-width: 590px;
+	}
+
+	.summer-promo-header__subtitle_primary strong {
+		font-weight: 700;
+	}
+
+	.summer-promo-header__dates {
+		font-size: 30px;
+	}
+
+	.summer-promo-header__dates span {
+		font-size: 13px;
+		letter-spacing: 4.81px;
+	}
+
+	.summer-promo-header__podium {
+		width: 880px;
+		top: 125px;
+		margin-left: 35px;
+	}
+
+	.summer-promo-header__star_small {
+		width: 150px;
+		transform: translate(-390px, -360px);
+	}
+
+	.summer-promo-header__star_medium {
+		transform: translate(340px, -140px);
+	}
+
+	.summer-promo-header__star_large {
+		transform: translate(-200px, 25px);
+	}
+}

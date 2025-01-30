@@ -1,0 +1,73 @@
+<div class="summer-x2">
+	<div class="summer-x2__container">
+		<div class="summer-x2__sliding-numbers fx-animation-sequence-all">
+			<div class="number number-100 animated " data-animate="fx-animation-step">
+				<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/X2.svg" alt="x2">
+			</div>
+			<div class="number number-60 animated" data-animate="fx-animation-step">
+				<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/60x2.svg" alt="2">
+			</div>
+			<div class="number number-20 animated" data-animate="fx-animation-step">
+				<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/20x2.svg" alt="2">
+			</div>
+		</div>
+		<div class="summer-x2__steps fx-animation-sequence-all">
+			<div class="summer-x2__step animated" data-animate="fx-animation-fadeInUp">
+				<div class="summer-x2__step-title">
+					<span class="summer-x2__step-title-text"><%- i18n.fx('global_register')%></span>
+				</div>
+				<div class="summer-x2__step-description">
+					<span class="summer-x2__step-description-text"><%- i18n.fx('promoVietnam_text12')%></span>
+				</div>
+			</div>
+			<div class="summer-x2__pointer summer-x2__pointer_left animated" data-animate="fx-animation-fadeInUp">
+				<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/pointer1.svg" alt="pointer">
+			</div>
+			<div class="summer-x2__step animated" data-animate="fx-animation-fadeInUp">
+				<div class="summer-x2__step-title">
+					<span class="summer-x2__step-title-text"><%- i18n.fx('promoRamadan_text13')%></span>
+				</div>
+				<div class="summer-x2__step-description">
+					<span class="summer-x2__step-description-text"><%- i18n.fx('promoVietnam_text14')%></span>
+				</div>
+			</div>
+			<div class="summer-x2__pointer summer-x2__pointer_center animated" data-animate="fx-animation-fadeInUp">
+				<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/pointer2.svg" alt="pointer">
+			</div>
+			<div class="summer-x2__step animated" data-animate="fx-animation-fadeInUp">
+				<div class="summer-x2__step-title">
+					<span class="summer-x2__step-title-text"><%- i18n.fx('section_tradeGold_steps_titleTrade')%></span>
+				</div>
+				<div class="summer-x2__step-description">
+					<span class="summer-x2__step-description-text"><%- i18n.fx('promoVietnam_text15')%></span>
+				</div>
+			</div>
+			<div class="summer-x2__pointer summer-x2__pointer_right animated" data-animate="fx-animation-fadeInUp">
+				<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/pointer3.svg" alt="pointer">
+			</div>
+			<% if(!restrictionService.isRestricted({disabledLanguages: ['tw', 'zh']}, restrictionState)) { %>
+				<div class="summer-x2__step animated" data-animate="fx-animation-fadeInUp">
+					<div class="summer-x2__step-title">
+						<span class="summer-x2__step-title-text"><%- i18n.fx('promoRamadan_text16')%></span>
+					</div>
+					<div class="summer-x2__step-description">
+						<span class="summer-x2__step-description-text"><%- i18n.fx('promoVietnam_text17')%></span>
+					</div>
+				</div>
+			<% } %>
+		</div>
+	</div>
+	<div class="summer-x2__text-content  fx-animation-sequence-all">
+		<div class="summer-x2__text-content-container animated" data-animate="fx-animation-fadeInUp">
+			<div class="summer-x2__text-content-description animated" data-animate="fx-animation-fadeInUp">
+				<span class="summer-x2__text-content-title-text"><%- i18n.fx('page_promoAsia_text10') %></span>
+			</div>
+			<div class="summer-x2__text-content-description animated" data-animate="fx-animation-fadeInUp">
+				<span class="summer-x2__text-content-description-text"><%- i18n.fx('page_promoAsia_text11') %></span>
+			</div>
+		</div>
+		<div class="summer-x2__text-content-description_gradient animated" data-animate="fx-animation-fadeInUp">
+			<%- i18n.fx('page_promoAsia_text12') %>
+		</div>
+	</div>
+</div>

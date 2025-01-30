@@ -1,0 +1,67 @@
+<div class="promo-asia-table">
+	<div class="promo-asia-table__container">
+		<% if(!restrictionService.isRestricted({disabledLanguages: ['tw', 'zh']}, restrictionState)) { %>
+			<div class="promo-asia-table__text-wrapper fx-animation-sequence-all">
+				<div class="promo-asia-table__title animated" data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('page_promoAsia_text13')%>
+				</div>
+				<div class="promo-asia-table__text animated" data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('page_promoAsia_text14')%>
+				</div>
+				<div class="promo-asia-table__text animated" data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('page_promoAsia_text15')%>
+				</div>
+			</div>
+		<% } %>
+		<div class="promo-asia-table__tableContainer">
+			<div class="promo-asia-table__text-wrapper fx-animation-sequence-all">
+				<div class="promo-asia-table__title animated"
+				data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('page_promoAsia_text16')%>
+				</div>
+				<div class="promo-asia-table__text animated"
+				data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('page_promoAsia_text17')%>
+				</div>
+			</div>
+			<div class="app-asia-slider animated"
+			data-animate="fx-animation-fadeIn">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide">
+							<div class="slide-values-container">
+								<span><%- i18n.fx('promoRamadan_text26')%></span>
+								<span>1000</span>
+								<span>500</span>
+							</div>
+							<div class="slide-values-container">
+								<span><%- i18n.fx('promoRamadan_text27')%></span>
+								<span>2000</span>
+								<span>1000</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide">
+							<div class="slide-values-container">
+								<span><%- i18n.fx('promoRamadan_text28')%></span>
+								<span>0</span>
+								<span>500</span>
+							</div>
+							<div class="slide-values-container">
+								<span><%- i18n.fx('promoRamadan_text29')%></span>
+								<span>500</span>
+								<span>700</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide">
+							<div class="slide-values-container">
+								<span><%- i18n.fx('promoRamadan_text30')%></span>
+								<span>500 <%- i18n.fx('promoRamadan_text31')%></span>
+								<span>500 <%- i18n.fx('promoAsia_table_100')%></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

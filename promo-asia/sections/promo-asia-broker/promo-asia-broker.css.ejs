@@ -1,0 +1,136 @@
+.promo-asia-broker {
+	position: relative;
+	padding: 40px 0px;
+}
+
+.promo-asia-broker__title,
+.promo-asia-broker__description {
+	padding: 0 20px 20px;
+	max-width: 470px;
+	text-align: center;
+	font-family: Inter;
+	color: #2D3436;
+	margin: auto;
+}
+
+.promo-asia-broker__title {
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 120%;
+}
+
+.promo-asia-broker__description {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 150%;
+}
+
+.promo-asia-broker__image-container {
+	position: absolute;
+	z-index: -1;
+	top: 3%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	max-width: 750px;
+}
+
+.promo-asia-broker__image-container img {
+	width: 100%;
+}
+
+.promo-asia-broker__terms-container {
+	border-top: 1px solid #C6C6C6;
+	border-bottom: 1px solid #C6C6C6;
+	padding: 20px;
+}
+
+.promo-asia-broker__terms-title-text {
+	color: #2D3436;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 150%;
+	text-decoration-line: underline;
+	min-width: fit-content;
+}
+
+.promo-asia-broker__terms-title-text:hover,
+.promo-asia-broker__terms-title-text:focus,
+.promo-asia-broker__terms-title-text:active {
+	color: #2D3436;
+	text-decoration-line: underline;
+}
+
+.promo-asia-broker__terms-title-text {
+	color: #2D3436;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 150%;
+	text-decoration-line: underline;
+	min-width: fit-content;
+}
+
+.promo-asia-broker__terms-list {
+	padding-left: 20px;
+}
+
+.promo-asia-broker__terms-list-item {
+	color: #2D3436;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+	.promo-asia-broker {
+		padding: 180px 0 60px;
+	}
+
+	.promo-asia-broker__image-container {
+		top: 10%;
+	}
+
+	.promo-asia-broker__terms-container {
+		border-top: none;
+	}
+
+	.promo-asia-broker__terms-title-container {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+	}
+
+	.promo-asia-broker__border_left,
+	.promo-asia-broker__border_right {
+		width: 100%;
+		height: 1px;
+		background-color: #C6C6C6;
+	}
+
+	.promo-asia-broker__terms-title-text {
+		text-align: center;
+		min-width: fit-content;
+	}
+
+	.promo-asia-broker__terms-list {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 30px;
+		margin-top: 30px;
+	}
+
+	.promo-asia-broker__terms-list-item {
+		max-width: 210px;
+	}
+
+	[lang=zh] .promo-asia-broker__terms-list-item,
+	[lang=tw] .promo-asia-broker__terms-list-item {
+		max-width: 242px;
+	}
+}

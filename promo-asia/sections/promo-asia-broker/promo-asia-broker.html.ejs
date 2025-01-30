@@ -1,0 +1,43 @@
+<div class="promo-asia-broker">
+	<div class="promo-asia-broker__title animated" data-animate="fx-animation-fadeInUp"><%- i18n.fx('page_promoAsia_text18')%></div>
+	<div class="promo-asia-broker__description animated" data-animate="fx-animation-fadeInUp"><%- i18n.fx('promoRamadan_text35')%></div>
+	<div class="promo-asia-broker__image-container animated" data-animate="fx-animation-fadeIn">
+		<img src="https://direct-landings.azureedge.net/assets/img/pages/summer/x2white.svg" alt="x2">
+	</div>
+	<div class="promo-asia-broker__terms-container">
+		<div class="promo-asia-broker__terms-title-container">
+			<div class="promo-asia-broker__border_left"></div>
+			<a id="termsAndConditionsLink" class="promo-asia-broker__terms-title-text animated" data-animate="fx-animation-fadeInUp" href="" target="_blank"><%- i18n.fx('page_promoAsia_text19')%></a>
+			<div class="promo-asia-broker__border_right"></div>
+		</div>
+		<ul class="promo-asia-broker__terms-list fx-animation-sequence-all">
+			<li class="promo-asia-broker__terms-list-item animated" data-animate="fx-animation-fadeInUp">
+				<%- i18n.fx('promoRamadan_text36')%>
+			</li>
+			<% if(!restrictionService.isRestricted({disabledLanguages: ['tw', 'zh']}, restrictionState)) { %>
+				<li class="promo-asia-broker__terms-list-item animated" data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('page_promoAsia_text21')%>
+				</li>
+			<% } %>
+			<li class="promo-asia-broker__terms-list-item animated" data-animate="fx-animation-fadeInUp">
+				<%- i18n.fx('promoRamadan_text37')%>
+			</li>
+			<li class="promo-asia-broker__terms-list-item animated" data-animate="fx-animation-fadeInUp">
+				<%- i18n.fx('promoRamadan_text38')%>
+			</li>
+			<li class="promo-asia-broker__terms-list-item animated" data-animate="fx-animation-fadeInUp">
+				<%- i18n.fx('promoRamadan_text39')%>
+			</li>
+			<% if(!restrictionService.isRestricted({enabledLanguages: ['tw', 'zh']}, restrictionState)) { %>
+				<li class="promo-asia-broker__terms-list-item animated" data-animate="fx-animation-fadeInUp">
+					<%- i18n.fx('promoRamadan_text41')%>
+				</li>
+			<% } %>
+		</ul>
+	</div>
+	<div class="promo-asia-broker__button animated" data-animate="fx-animation-fadeInUp">
+		<a href="#" rel="nofollow noopener" class="direct-register-link">
+			<%- i18n.fx('section_tradingIdeas_getIdeasLinkTitle')%>
+		</a>
+	</div>
+</div>

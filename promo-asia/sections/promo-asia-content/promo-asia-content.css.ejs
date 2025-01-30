@@ -1,0 +1,186 @@
+.summer-promo-steps {
+	background: radial-gradient(50.00% 81.67% at 50.00% 100.00%, rgba(246, 243, 239, 0.00) 0%, #F6F3EF 100%);
+}
+
+.summer-promo-steps__container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20px 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.summer-promo-steps__sun-container {
+	background: url("https://direct-landings.azureedge.net/assets/img/pages/summer/sun.webp") no-repeat center center;
+	width: 300px;
+	height: 300px;
+	margin-top: -135px;
+}
+
+.summer-promo-steps__sun-container p {
+	max-width: 230px;
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 130%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+[lang="vi"] .summer-promo-steps__sun-container p {
+	max-width: 205px;
+}
+
+[lang="ru"] .summer-promo-steps__sun-container p {
+	margin-top: 90px
+}
+
+[lang="vi"] .summer-promo-steps__sun-container p {
+	max-width: 225px;
+}
+
+[lang="ja"] .summer-promo-steps__sun-container p {
+	margin-top: 70px;
+}
+
+[lang="th"] .summer-promo-steps__sun-container p {
+	margin-top: 90px;
+}
+
+[lang="ja"] .summer-promo-steps__sun-container p strong,
+[lang="ru"] .summer-promo-steps__sun-container p strong {
+	font-size: 20px;
+}
+
+[lang="ms"] .summer-promo-steps__sun-container p strong {
+	font-size: 21px;
+}
+
+.summer-promo-steps__sun-container p strong {
+	font-size: 26px;
+	line-height: 33.8px;
+}
+
+.summer-promo-steps__phone-img {
+	margin-top: -35px;
+}
+
+.summer-promo-steps__phone-img img {
+	width: 100%;
+}
+
+.summer-promo-steps__phone-img_desktop {
+	display: none;
+}
+
+.summer-promo-steps__mt4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 240px;
+	text-align: center;
+}
+
+.summer-promo-steps__mt4 p {
+	color: #000;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+	text-align: center
+}
+
+.summer-promo-steps__mt4 a {
+	border-radius: 10px;
+	background: #FFCE00;
+	padding: 15px 30px;
+	cursor: pointer;
+	color: #000;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-family: Inter;
+	min-width: fit-content;
+}
+
+@media (min-width: 768px) {
+
+	.summer-promo-steps__container {
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		padding: 60px 20px 120px;
+	}
+
+	.summer-promo-steps__sun-container {
+		margin-top: -570px;
+		background-size: contain;
+		width: 400px;
+		height: 400px;
+	}
+
+	.summer-promo-steps__sun-container p {
+		max-width: 315px;
+		margin-top: 125px;
+	}
+
+	.summer-promo-steps__sun-container p strong {
+		margin-top: 15px;
+		display: block;
+		font-size: 28px;
+	}
+
+	.summer-promo-steps__phone-img {
+		max-width: 80%;
+		width: 100%;
+		margin: auto;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -120px);
+	}
+
+	.summer-promo-steps__phone-img_mobile {
+		display: none;
+	}
+
+	.summer-promo-steps__phone-img_desktop {
+		display: block;
+	}
+
+	.summer-promo-steps__mt4 {
+		text-align: left;
+		align-items: flex-start;
+	}
+
+
+	[lang="vi"] .summer-promo-steps__sun-container p {
+		max-width: 315px;
+	}
+
+	[lang="id"] .summer-promo-steps__sun-container p {
+		margin-top: 90px;
+		max-width: 315px;
+	}
+
+	[lang="ms"] .summer-promo-steps__sun-container p {
+		margin-top: 100px;
+	}
+
+	[lang="th"] .summer-promo-steps__sun-container p,
+	[lang="ja"] .summer-promo-steps__sun-container p {
+		margin-top: 125px;
+	}
+
+	[lang="ja"] .summer-promo-steps__sun-container p strong,
+	[lang="ms"] .summer-promo-steps__sun-container p strong {
+		font-size: 21px;
+		font-size: 25px;
+	}
+}
